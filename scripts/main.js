@@ -5,7 +5,7 @@ import { ServicesHTML } from "./Services.js"
 const mainContainer = document.querySelector("#container")
 
 const applicationHTML = `
-<h1 class="details">Cider Falls Park</h1>
+<h1 class="details"><img id="logo--header" src="../ciderfallsparklogo.png">Cider Falls Park</h1>
 <article>
     <aside class="guests--aside">
         <h2 class="guests--title">Guests</h2>
