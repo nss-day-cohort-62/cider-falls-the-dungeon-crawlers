@@ -44,3 +44,10 @@
 footer {
     text-align: center;
 }
+
+.footer {
+    display: inline-block;
+    margin-top: 75px; 
+    margin-left: 50px; 
+
+}

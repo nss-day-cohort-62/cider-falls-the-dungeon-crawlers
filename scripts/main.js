@@ -18,11 +18,12 @@ const applicationHTML = `
         </section>
         <section class="detail--column">
             <h2>Destinations</h2>
+            ${DestinationsHTML()}
         </section>
     </section>
 </article>
 <footer>
-    <small>Phone Number: 123-456-7890 &#8226 Email:info@ciderfallspark.gov &#8226 Address: 123 Cider Falls Park Drive</small>
+    <p class = "footer">Phone Number: 123-456-7890</p> <p class = "footer">Email:info@ciderfallspark.gov</p> <p class = "footer"> address: 123 Cider Falls Park Drive</p>
 </footer>
 `
 
