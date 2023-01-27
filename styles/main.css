@@ -1,4 +1,44 @@
-.destinationGrid {
-    display: grid; 
-    grid-template-columns: 1fr 1fr 1fr;
+.guests--aside {
+    display: block;
+    float: right;
+    width: 25%;
+    text-align: left;
+}
+
+.details {
+    display: block;
+    width: 75%;
+}
+
+    .detail--column {
+        display: flex;
+        flex-flow: column wrap;
+    }
+
+        .serviceListDiv {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+        }
+
+            .leftServiceList {
+                grid-column: 1;
+                grid-row: 1;
+                margin: 0, 25%, 0, 25%;
+                border: 1px black solid;
+            }
+
+            .rightServiceList {
+                grid-column: 2;
+                grid-row: 1;
+                margin: 0, 25%, 0, 25%;
+                border: 1px black solid;
+            }
+
+        .destinationGrid {
+            display: grid; 
+            grid-template-columns: 1fr 1fr 1fr;
+        }
+
+footer {
+    text-align: center;
 }
