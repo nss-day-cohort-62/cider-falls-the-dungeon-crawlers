@@ -8,7 +8,7 @@ const guests = getGuests()
 export const DestinationsHTML = () => {
     let html = `<div class = "destinationGrid">` // destination grid class will be used to add the grid in css
     for (const destination of destinations) {
-        html += `<div id = "destination--${destination.id}"> <h4 id = "destination--${destination.id}"> ${destination.name} </h4>`
+        html += `<div class = "destinationServices" id = "destination--${destination.id}"> <h4 id = "destination--${destination.id}"> ${destination.name} </h4>`
             for (const destinationService of destinationServices){
                 if (destinationService.destId === destination.id){
                     for (const service of services){

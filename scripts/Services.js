@@ -9,10 +9,12 @@ export const ServicesHTML = () => {
     for (let i = 0; i < 5; i++) {
         leftList += `<li id="service--${services[i].id}">${services[i].name}</li>`
     }
+    leftList += '</ul>'
     let rightList = '<ul>'
     for (let j = 5; j < services.length; j++) {
         rightList += `<li id="service--${services[j].id}">${services[j].name}</li>`
     }
+    rightList += '</ul>'
     const html = `<div class="serviceListDiv"><section class="leftServiceList">` + leftList + `</section><section class="rightServiceList">` + rightList + "</section></div>"
     return html
 }
