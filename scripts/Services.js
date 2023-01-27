@@ -13,7 +13,7 @@ export const ServicesHTML = () => {
     for (let j = 5; j < services.length; j++) {
         rightList += `<li id="service--${services[j].id}">${services[j].name}</li>`
     }
-    const html = `<section class="leftServiceList">` + leftList + `</section><section class="rightServiceList">` + rightList + "</section>"
+    const html = `<div class="serviceListDiv"><section class="leftServiceList">` + leftList + `</section><section class="rightServiceList">` + rightList + "</section></div>"
     return html
 }
 
