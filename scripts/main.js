@@ -22,7 +22,7 @@ const applicationHTML = `
     </section>
 </article>
 <footer>
-    <p>Phone Number: 123-456-7890 Email:info@ciderfallspark.gov Address: 123 Cider Falls Park Drive</p>
+    <small>Phone Number: 123-456-7890 &#8226 Email:info@ciderfallspark.gov &#8226 Address: 123 Cider Falls Park Drive</small>
 </footer>
 `
 
