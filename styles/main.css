@@ -2,6 +2,13 @@ h1, h2, h3, h4 {
     text-align: center;
 }
 
+#logo--header {
+    width: 150px;
+    height: auto;
+    display: inline-block;
+    margin-bottom: -50px;
+}
+
 .guests--title {
     text-align: left;
     margin-left: 25px;
